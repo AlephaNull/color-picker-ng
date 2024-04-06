@@ -5,6 +5,6 @@ let color = inputEl.value
 
 changeBtn.addEventListener("click", function() {
 
-  document.body.style.background = color
+  document.body.style.background = inputEl.value
 
 })
